@@ -51,4 +51,12 @@ switch (userType){
         userCategory = "Unkonown";
 }
 
-console.log("UserCategory: ", userCategory)
+console.log("UserCategory: ", userCategory);
+
+//Ternary Operator
+
+let isAuthenticated = true;
+
+let authenticationStatus = isAuthenticated ? "Authenticated" : "Not Authenticated";
+
+console.log("Authentication Status: ",authenticationStatus);
